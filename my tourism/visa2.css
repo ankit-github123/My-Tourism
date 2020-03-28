@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav{
+	width: 100%;
+	background: #d6d6f5;
+	height: 55px;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+
+ul li{
+	float: left;
+	margin-top: 7px;
+}
+
+ul li a{
+	width:170px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	font-family: Century Gothic;
+	font-weight: bold;
+}
+
+a:hover{
+	background: #669900;
+}
+
+ul li ul{
+	background: #d6d6f5;
+}
+
+ul li ul li{
+	float: none;
+}
+
+ul li ul{
+	display: none;
+}
+
+ul li:hover ul{
+	display: block;
+}

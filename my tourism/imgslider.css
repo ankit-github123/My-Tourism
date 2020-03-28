@@ -1,0 +1,41 @@
+#outerbox{
+	width: 650px;
+	overflow: hidden;
+}
+
+#sliderbox{
+	position: relative;
+	width: 1950px;
+	animation-name: jatinder;
+	animation-duration:15s;
+	animation-iteration-count: infinite;
+}
+
+#sliderbox img{
+	float: left;
+}
+
+@keyframes jatinder{
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	33.33%{
+		left: -650px;
+	}
+	60%{
+		left: -650px;
+	}
+	66.67%{
+		left: -1300px;
+	}
+	93.33%{
+		left: -1300px;
+	} 
+	100%{
+		left: -1950px;
+	}
+	
+}
